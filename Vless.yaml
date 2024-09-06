@@ -1,0 +1,21 @@
+     
+             #千塵の子 - 配置.yaml
+proxies:
+
+- {name: Reality•Nokia, server: z.staorxeonline.top, port: 2581, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA}, client-fingerprint: chrome, type: vless, uuid: 47cfd8d7-fcd6-4381-e4ef-c28515fb94f9, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.nokia.com, network: tcp}
+
+
+- {name: Reality•Imperva, server: z.staorxeonline.top, port: 13803, reality-opts: {public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM}, client-fingerprint: chrome, type: vless, uuid: fe8bc21b-1bfe-471c-fa89-cd29ebf3b905, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.imperva.com, network: tcp}
+
+
+- {name: Reality•Lazzarusa, server: k.staorxeonline.top, port: 55678, reality-opts: {public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg}, client-fingerprint: chrome, type: vless, uuid: d05528d2-dba7-4855-e1b9-8f1a7f20a4b4, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.lazzarusa.com, network: tcp}
+
+
+- {name: Reality•Spectra, server: k.staorxeonline.top, port: 59270, reality-opts: {public-key: S-g0oP36DShii1uPOnZDSEhp_wQghX6h68PgMivOmD4}, client-fingerprint: chrome, type: vless, uuid: 73c6ddb2-5856-4389-b1bc-f9ee01f1dde8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: spectraartspace.com, network: tcp}
+
+
+- {name: Reality•Kurdu, server: k.staorxeonline.top, port: 46093, reality-opts: {public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM}, client-fingerprint: chrome, type: vless, uuid: 7f4ad25a-0087-4c9e-8937-b6421335e536, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.hesapkurdu.com, network: tcp}
+
+
+proxy-groups:
+- { name: "千塵の子", type: select, proxies: [Reality•Nokia,Reality•Imperva,Reality•Lazzarusa,Reality•Spectra,Reality•Kurdu] }
